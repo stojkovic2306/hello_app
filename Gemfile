@@ -14,6 +14,8 @@ gem "bootsnap", "1.18.6", require: false
 gem "tzinfo-data", "1.2025.2", platforms: %i[ windows jruby ]
 gem "kamal", "2.7.0", require: false
 gem "thruster", "0.1.15", require: false
+gem "brakeman", require: false
+gem "rubocop-rails-omakase", require: false
 
 group :development, :test do
   gem "sqlite3", "2.7.2"
