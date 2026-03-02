@@ -26,6 +26,10 @@ group :development do
   gem "web-console", "4.2.1"
 end
 
+group :production do
+  gem "pg", "1.5.9"
+end
+
 group :test do
   gem "capybara", "3.40.0"
   gem "selenium-webdriver", "4.9.0"
